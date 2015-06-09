@@ -17,3 +17,16 @@ H:\visual studio 2013\Projects\GizmosMediaPlayer\GizmosMediaPlayerHost\obj\x86\D
 H:\visual studio 2013\Projects\Repos\GizmosMediaPlayer\GizmosMediaPlayerHost\bin\x86\Debug\MyMediaPlayerHost.exe.config
 H:\visual studio 2013\Projects\Repos\GizmosMediaPlayer\GizmosMediaPlayerHost\obj\x86\Debug\MyMediaPlayerHost.exe
 H:\visual studio 2013\Projects\Repos\GizmosMediaPlayer\GizmosMediaPlayerHost\obj\x86\Debug\MyMediaPlayerHost.pdb
+H:\visual studio 2013\Projects\Repos\GizmosMediaPlayer\GizmosMediaPlayerHost\bin\x86\Debug\MyMediaPlayerHost.exe
+H:\visual studio 2013\Projects\Repos\GizmosMediaPlayer\GizmosMediaPlayerHost\bin\x86\Debug\MyMediaPlayerHost.pdb
+H:\visual studio 2013\Projects\Repos\GizmosMediaPlayer\GizmosMediaPlayerHost\bin\x86\Debug\CassiniDev4-lib.dll
+H:\visual studio 2013\Projects\Repos\GizmosMediaPlayer\GizmosMediaPlayerHost\bin\x86\Debug\CefSharp.Core.dll
+H:\visual studio 2013\Projects\Repos\GizmosMediaPlayer\GizmosMediaPlayerHost\bin\x86\Debug\CefSharp.dll
+H:\visual studio 2013\Projects\Repos\GizmosMediaPlayer\GizmosMediaPlayerHost\bin\x86\Debug\CefSharp.WinForms.dll
+H:\visual studio 2013\Projects\Repos\GizmosMediaPlayer\GizmosMediaPlayerHost\bin\x86\Debug\CefSharp.WinForms.xml
+H:\visual studio 2013\Projects\Repos\GizmosMediaPlayer\GizmosMediaPlayerHost\bin\x86\Debug\CefSharp.xml
+H:\visual studio 2013\Projects\Repos\GizmosMediaPlayer\GizmosMediaPlayerHost\bin\x86\Debug\CefSharp.Core.xml
+H:\visual studio 2013\Projects\Repos\GizmosMediaPlayer\GizmosMediaPlayerHost\obj\x86\Debug\GizmosMediaPlayerHost.csprojResolveAssemblyReference.cache
+H:\visual studio 2013\Projects\Repos\GizmosMediaPlayer\GizmosMediaPlayerHost\obj\x86\Debug\MyMediaPlayerHost.frmMain.resources
+H:\visual studio 2013\Projects\Repos\GizmosMediaPlayer\GizmosMediaPlayerHost\obj\x86\Debug\MyMediaPlayerHost.Properties.Resources.resources
+H:\visual studio 2013\Projects\Repos\GizmosMediaPlayer\GizmosMediaPlayerHost\obj\x86\Debug\GizmosMediaPlayerHost.csproj.GenerateResource.Cache
