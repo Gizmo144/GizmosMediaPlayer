@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyMediaDataBaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="MyMediaAlbums">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MyMediaArtists">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MyMediaTable">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="255" />
+    <Property Name="Time" Type="time" Precision="7" />
+    <Property Name="ArtistFK" Type="bigint" Nullable="false" />
+    <Property Name="AlbumFK" Type="bigint" Nullable="false" />
+    <Property Name="Genre" Type="nvarchar" MaxLength="255" />
+    <Property Name="Plays" Type="bigint" />
+  </EntityType>
+  <Association Name="FK_MyMediaTable_MyMediaAlbums">
+    <End Role="MyMediaAlbums" Type="Self.MyMediaAlbums" Multiplicity="1" />
+    <End Role="MyMediaTable" Type="Self.MyMediaTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MyMediaAlbums">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MyMediaTable">
+        <PropertyRef Name="AlbumFK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MyMediaTable_MyMediaArtists">
+    <End Role="MyMediaArtists" Type="Self.MyMediaArtists" Multiplicity="1" />
+    <End Role="MyMediaTable" Type="Self.MyMediaTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MyMediaArtists">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MyMediaTable">
+        <PropertyRef Name="ArtistFK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MyMediaDataBaseModelStoreContainer">
+    <EntitySet Name="MyMediaAlbums" EntityType="Self.MyMediaAlbums" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MyMediaArtists" EntityType="Self.MyMediaArtists" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MyMediaTable" EntityType="Self.MyMediaTable" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_MyMediaTable_MyMediaAlbums" Association="Self.FK_MyMediaTable_MyMediaAlbums">
+      <End Role="MyMediaAlbums" EntitySet="MyMediaAlbums" />
+      <End Role="MyMediaTable" EntitySet="MyMediaTable" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MyMediaTable_MyMediaArtists" Association="Self.FK_MyMediaTable_MyMediaArtists">
+      <End Role="MyMediaArtists" EntitySet="MyMediaArtists" />
+      <End Role="MyMediaTable" EntitySet="MyMediaTable" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

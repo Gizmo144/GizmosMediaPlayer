@@ -1,0 +1,186 @@
+﻿@{
+    ViewBag.Title = "Scrubbs's Media Player";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<nav id="HeaderBar" class="navbar navbar-inverse navbar-fixed-top">
+    <img class="navbar-brand" alt="Brand" src="~/Content/themes/base/images/favicon.ico">
+    <div class="navbar-center">
+        <div class="well"></div>
+    </div>
+    <div class="navbar-header navbar-right">
+        <p class="navbar-text">Scrubbs's Media Player</p>
+    </div>
+    <form class="navbar-form navbar-right" role="search">
+        <div class="input-group">
+            <!--<span class="input-group-addon">Filter</span>-->
+            <input id="SearchSongs" type="search" class="form-control" placeholder="Search">
+            <span id="searchclear" class="glyphicon glyphicon-remove-circle"></span>
+        </div>
+    </form>
+</nav>
+
+<div id="Content">
+    <div id="sidebar">
+        <div id="dragbar"></div>
+        sidebar
+    </div>
+    <div id="main">
+        <div id="TableWrapper">
+            <table id="MediaTable" class="table table-striped table-bordered table-hover table-condensed" data-input="#SearchSongs" data-filter="true">
+                <thead id="TableHeader" class="columnTitles">
+                    <tr>
+                        <th class="column">#</th>
+                        <th class="column">Title</th>
+                        <th class="column">Artist</th>
+                        <th class="column">Album</th>
+                        <th class="column">Plays</th>
+                    </tr>
+                </thead>
+                <tbody id="TableBody">
+                    <tr id="Song_1">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2001</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                    <tr id="Song_2">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2000</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                    <tr id="Song_3">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2000</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                    <tr id="Song_4">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2000</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                    <tr id="Song_5">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2000</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                    <tr id="Song_6">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2000</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                    <tr id="Song_7">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2000</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                    <tr id="Song_8">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2000</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                    <tr id="Song_9">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2000</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                    <tr id="Song_10">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2000</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                    <tr id="Song_11">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2000</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                    <tr id="Song_12">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2000</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                    <tr id="Song_13">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2000</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                    <tr id="Song_14">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2000</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                    <tr id="Song_15">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2000</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                    <tr id="Song_16">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2000</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                    <tr id="Song_17">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2000</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                    <tr id="Song_18">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2000</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                    <tr id="Song_19">
+                        <td class="filterable-cell">Ford</td>
+                        <td class="filterable-cell">Escort</td>
+                        <td class="filterable-cell">Blue</td>
+                        <td class="filterable-cell">2000</td>
+                        <td class="filterable-cell">2000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!--<nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+        ...
+    </div>
+</nav>-->
+
+<!--<div class="divider-vertical"></div>-->

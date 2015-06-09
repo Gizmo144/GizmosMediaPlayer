@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="32ae4de8928743dfafadcebb7a7f78c7" Name="Diagram1">
+        <EntityTypeShape EntityType="MyMediaDataBaseModel.MyMediaAlbum" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyMediaDataBaseModel.MyMediaArtist" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyMediaDataBaseModel.MyMediaTable" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="MyMediaDataBaseModel.FK_MyMediaTable_MyMediaAlbums" ManuallyRouted="false" />
+        <AssociationConnector Association="MyMediaDataBaseModel.FK_MyMediaTable_MyMediaArtists" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

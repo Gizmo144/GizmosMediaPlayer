@@ -1,0 +1,10 @@
+H:\visual studio 2013\Projects\MyMediaPlayer\MyMediaPlayerHost\bin\Debug\MyMediaPlayerHost.exe.config
+H:\visual studio 2013\Projects\MyMediaPlayer\MyMediaPlayerHost\bin\Debug\MyMediaPlayerHost.exe
+H:\visual studio 2013\Projects\MyMediaPlayer\MyMediaPlayerHost\bin\Debug\MyMediaPlayerHost.pdb
+H:\visual studio 2013\Projects\MyMediaPlayer\MyMediaPlayerHost\bin\Debug\CassiniDev4-lib.dll
+H:\visual studio 2013\Projects\MyMediaPlayer\MyMediaPlayerHost\obj\Debug\MyMediaPlayerHost.frmMain.resources
+H:\visual studio 2013\Projects\MyMediaPlayer\MyMediaPlayerHost\obj\Debug\MyMediaPlayerHost.Properties.Resources.resources
+H:\visual studio 2013\Projects\MyMediaPlayer\MyMediaPlayerHost\obj\Debug\MyMediaPlayerHost.csproj.GenerateResource.Cache
+H:\visual studio 2013\Projects\MyMediaPlayer\MyMediaPlayerHost\obj\Debug\MyMediaPlayerHost.exe
+H:\visual studio 2013\Projects\MyMediaPlayer\MyMediaPlayerHost\obj\Debug\MyMediaPlayerHost.pdb
+H:\visual studio 2013\Projects\MyMediaPlayer\MyMediaPlayerHost\obj\Debug\MyMediaPlayerHost.csprojResolveAssemblyReference.cache

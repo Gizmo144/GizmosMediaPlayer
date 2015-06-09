@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MyMediaDataBaseModelStoreContainer" CdmEntityContainer="MyMediaDataBaseEntities1">
+    <EntitySetMapping Name="MyMediaAlbums">
+      <EntityTypeMapping TypeName="MyMediaDataBaseModel.MyMediaAlbum">
+        <MappingFragment StoreEntitySet="MyMediaAlbums">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MyMediaArtists">
+      <EntityTypeMapping TypeName="MyMediaDataBaseModel.MyMediaArtist">
+        <MappingFragment StoreEntitySet="MyMediaArtists">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MyMediaTables">
+      <EntityTypeMapping TypeName="MyMediaDataBaseModel.MyMediaTable">
+        <MappingFragment StoreEntitySet="MyMediaTable">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="ArtistFK" ColumnName="ArtistFK" />
+          <ScalarProperty Name="AlbumFK" ColumnName="AlbumFK" />
+          <ScalarProperty Name="Genre" ColumnName="Genre" />
+          <ScalarProperty Name="Plays" ColumnName="Plays" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

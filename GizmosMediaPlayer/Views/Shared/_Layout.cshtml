@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link rel="shortcut icon" href="~/Content/themes/base/images/favicon.ico" />
+    
+    <link href="~/Content/themes/base/minified/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/Content/themes/base/minified/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/main.css" rel="stylesheet" />
+
+    <script src="~/Scripts/jquery-2.1.4.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/main.js"></script>
+</head>
+<body>
+    @RenderBody()
+    <nav id="context-menu" class="context-menu" style="left: 95px; top: 178px;">
+        <ul class="context-menu__items">
+            <li class="context-menu__item">
+                <a href="#" class="context-menu__link" data-action="View"><i class="fa fa-eye"></i> Artist</a>
+            </li>
+            <li class="context-menu__item">
+                <a href="#" class="context-menu__link" data-action="Edit"><i class="fa fa-edit"></i> Album</a>
+            </li>
+            <li class="context-menu__item">
+                <a href="#" class="context-menu__link" data-action="Delete"><i class="fa fa-times"></i> Plays</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
